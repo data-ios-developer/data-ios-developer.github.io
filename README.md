@@ -1,206 +1,149 @@
+[English] [[日本語](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-jp.md#readme)] [[Português do Brasil](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-pt.md#readme)] [[français](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README-fr.md#readme)]
+
+## Mr. Green Jekyll Theme
+
+<!-- readme -->
+
+[<img src="https://img.shields.io/github/issues/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub issues" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/issues)
+[<img src="https://img.shields.io/github/forks/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub forks" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)
+[<img src="https://img.shields.io/github/stars/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub stars" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)
+[<img src="https://img.shields.io/github/license/MrGreensWorkshop/MrGreen-JekyllTheme" alt="GitHub license" data-no-image-viewer>](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE.txt)
+[<img src="https://shields.io/badge/Github%20Sponsors-Support%20me-blue?logo=GitHub+Sponsors" alt="Support me on GitHub Sponsors" data-no-image-viewer>](https://github.com/sponsors/MrGreensWorkshop "Support me on GitHub Sponsors")
+[<img src="https://shields.io/badge/Patreon-Support%20me-blue?logo=Patreon" alt="Be my Patron" data-no-image-viewer>](https://patreon.com/MrGreensWorkshop "Be my Patron")
+[<img src="https://shields.io/badge/Ko--fi-Tip%20me-blue?logo=kofi" alt="Tip me via Ko-fi" data-no-image-viewer>](https://ko-fi.com/MrGreensWorkshop "Tip me via Ko-fi")
+
 ---
-layout: home
-title: Jekyll Gitbook Theme
-permalink: /
----
 
-Make Jelly site have a GitBook look!
+<div align="center">
+  <img src="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/assets/img/posts/mock1.jpg" max-height="500" alt="screen_mock">
+  <br><br>
+  <a href="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com" style="font-weight: bold;" >Click here for live demo</a>
+</div>
 
-## Demo
 
-Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
+### Introduction
 
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
+<!-- outline-start -->
 
-## Why Jekyll with GitBook
+[Mr. Green](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme) is a multilingual theme generated with [Jekyll](https://jekyllrb.com/) and fully compatible with [GitHub Pages](https://pages.github.com/).
 
-GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
-is building HTML files locally and then push to Github repository, usually to the `gh-pages`
-branch. It's quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.
+<!-- outline-end -->
 
-This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to [Github Pages][1] without generating and uploading HTML bundle every time when there are
-changes to the original repo.
+I was going to make my website and thought if I did it as a template, I could share it with the open source community. That's why I decided to build it as a theme. I've worked so hard to make this possible, so please consider [supporting my work](#you-can-support-my-work). Thanks.
 
-## How to Get Started
+### Features
 
-This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
-see [the official guide][13] as well.
+- Multilingual web site
+  - English (default), Japanese, Brazilian Portuguese, French
+- Recommended language offer feature
+- Auto Navigation Button adder with icon enable disable options
+- Layouts for `Home`, `About`, `Archives`, `Post-list`, `Links`, `Projects` and more
+- Color scheme switching options (Dark light)
+- Auto Contact option adder
+- Auto image referrer (no need to add full path for images. Just add `:` in front of it.)
+- image lazy loader, image viewer
+- Cool Footer with creative commons licensing
+- Movable Table of Contents modal box for Posts
+- Post Share Options
+- Post-listing by Category or Tags
+- Comments for posts
+  - [Giscus](https://giscus.app)
+  - [Disqus](https://disqus.com)
+- Selectable numbered pagination or scroll to load type
+- Sitemap feature
+- Search Engine Optimization (SEO)
+  - [Schema Markup](https://schema.org)
+  - [Open Graph](https://ogp.me/)
+  - [Twitter](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary)
+- Analytics (Google Analytics)
+- Cookie consent feature
+- Contact form feature (Google Forms)
+- Site Search feature
+- Code Compression for small footprint (`HTML` `JS` `SCSS`)
+- Mobile App support
+- Mobile device friendly (Tested on Android and IOS)
+- Well organized folder structure for developers (Tested on Chrome, Safari, FireFox)
 
-You can introduce this jekyll theme into your own site by either
+### Installation
 
-- [Fork][3] this repository and add your markdown posts to the `_posts` folder.
-- Use as a remote theme in your [`_config.yml`][14](just like what we do for this
-  site itself),
+#### GitHub pages
 
-```yaml
-remote_theme: sighingnow/jekyll-gitbook
-```
+1. [Fork the repo](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/fork).
+1. Edit \_config.yml and change `url` like below and push changes.
 
-### Deploy Locally with Jekyll Serve
+   ```yaml
+   url: "https://your_github_user_name.github.io"
+   ```
 
-This theme can be ran locally using Ruby and Gemfiles.
+1. Rename the repo name to `your_github_user_name.github.io`.
+1. Check Deploy status `Actions` tab on the repo.
+1. When it's turned to green, your site is up and running at `https://your_github_user_name.github.io`.
 
-[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
+#### Local build
 
-## Full-text search
+1. [Install Jekyll](https://jekyllrb.com/docs/installation/) to your OS.
+1. Clone or [download](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/releases/latest) the repo, in command prompt go to the folder run `bundle install` command.
+1. Build using `bundle exec jekyll serve --watch --host 0.0.0.0 --safe` command,
+    - with `--host 0.0.0.0` parameter you can access web server from same lan.
+    - with `--safe` parameter you can make sure no 3rd party plugin added. (for GitHub pages development)
+1. Your page will be up and running at the `0.0.0.0:4000/` address.
 
-The search functionality in jekyll-gitbook theme is powered by the [gitbook-plugin-search-pro][5] plugin and is enabled by default.
+### Documentation
 
-[https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
+Check out [Mr. Green theme tutorials playlist](https://www.youtube.com/playlist?list=PLAymxPbYHgl-fFy5can7uZBMJtFWVcphD) on YouTube.
 
-## Code highlight
+### Credits
 
-The code highlight style is configurable the following entry in `_config.yaml`:
+I want to thank these projects that gave me an opportunity to build my web site.
 
-```yaml
-syntax_highlighter_style: colorful
-```
+- [Jekyll](https://jekyllrb.com/) is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more. It is a wonderful project which is maintained by volunteers.
 
-The default code highlight style is `colorful`, the full supported styles can be found from [the rouge repository][6]. Customized
-style can be added to [./assets/gitbook/rouge/](./assets/gitbook/rouge/).
+- [GitHub Pages](https://pages.github.com/) Hosted directly from your GitHub repository. Just push the changes and the site will be automatically generated.
 
-## How to generate TOC
+Some of the sites that I find useful while I'm working on this project. [Links page](https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/tabs/links.html).
 
-The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in `_config.yml`:
+### You Can Support My Work
 
-```yaml
-toc:
-    enabled: true
-    h_min: 1
-    h_max: 3
-```
+Creating projects starting from nothing takes a great amount of time. Much appreciated if you consider supporting me so that I can continue projects like this and creating new contents for everyone.
 
-## Google Analytics, etc.
+- You can be one of my [GitHub Sponsors](https://github.com/sponsors/MrGreensWorkshop "Support me on GitHub Sponsors") (monthly or one time)
+- You can be one of my [Patreons](https://patreon.com/MrGreensWorkshop "Be my Patron") (monthly)
+- You can tip me via [Ko-fi](https://ko-fi.com/MrGreensWorkshop "Tip Me via Ko-fi") (one time)
 
-The jekyll-gitboook theme supports embedding the [Google Analytics][7], [CNZZ][8] and [Application Insights][9] website analytical tools with the following
-minimal configuration in `_config.yaml`:
+### Contribute
 
-```yaml
-tracker:
-  google_analytics: "<YOUR GOOGLE ANALYTICS KEY, e.g, UA-xxxxxx-x>"
-```
+Pull Requests are welcome. Please check the instructions in the Issues and Pull Request templates.
 
-Similarly, CNZZ can be added with the following configuration in `_config.yaml`
+### Contributors
 
-```yaml
-tracker:
-  cnzz: "<YOUR CNZZ ANALYTICS KEY, e.g., xxxxxxxx>"
-```
+Thank you for your contributions!
 
-Application Insights can be added with the following configuration in `_config.yaml`
+- Brazilian Portuguese translation by [Vitor DallAcqua](https://github.com/fandangos).
+- French translation corrections by [Jean-Philippe Morissette](https://github.com/JPMorissette).
 
-```yaml
-tracker:
-  application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
-```
+### License
 
-## Disqus comments
+As it says in the [MIT license](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/LICENSE.txt), you can use this theme anywhere as long as you include the license and copyright notice.
 
-[Disqus](https://disqus.com/) comments can be enabled by adding the following configuration in `_config.yaml`:
+`Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com`
 
-```yaml
-disqushandler: "<YOUR DISQUS SHORTNAME>"
-```
+Please add link to my page or leave the "Pwrd by Mr. Green" link in the footer so I can get credit for my work.
 
-## Extra StyleSheet or Javascript elements
+Thank you!
 
-You can add extra CSS or JavaScript references using configuration collections:
+### Other Licenses
 
-- extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_header_js: for additional scripts to be included in the `<head>` tag, after the `extra_css` has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+Mr. Green Jekyll Theme incorporates libraries written below. Without these libraries, I couldn't make this project possible.
 
-## Customizing font settings
+| Library                              | file |
+| :----------------------------------- | ---- |
+| [jQuery v3.6.0](https://github.com/jquery/jquery/tree/3.6.0), Copyright [OpenJS Foundation](https://openjsf.org) and other contributors. jQuery is distributed under the terms of the MIT License. | [jquery-3.6.0.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/jquery-3.6.0.min.js) |
+| [Bootstrap v3.3.7](https://github.com/twbs/bootstrap/tree/v3.3.7), Copyright (c) 2011-2016 Twitter, Inc. Bootstrap is distributed under the terms of the MIT License. | [bootstrap.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/bootstrap.min.js), [bootstrap.min.css](assets/css/bootstrap.min.css) |
+| [Bootstrap Table of Contents v0.4.1](https://github.com/afeld/bootstrap-toc/tree/v0.4.1), Copyright (c) 2015 Aidan Feldman Aidan Feldman. Bootstrap Table of Contents is distributed under the terms of the MIT License. | [bootstrap-toc.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/bootstrap-toc.min.js), [bootstrap-toc.min.css](assets/css/bootstrap-toc.min.css) |
+| [Font Awesome v4.7.0](https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0), Copyright (c) 2017 Dave Gandy. The Font Awesome font is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL). Font Awesome CSS, LESS, and Sass files are distributed under the terms of the [MIT License](https://opensource.org/licenses/mit-license.html). | [font-awesome.min.css](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/css/font-awesome.min.css), [FontAwesome](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/fonts/) |
+| [Lozad.js v1.16.0](https://github.com/ApoorvSaxena/lozad.js/tree/v1.16.0), Copyright (c) 2017 Apoorv Saxena. Lozad.js is distributed under the terms of the MIT License. | [lozad.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/lozad.min.js) |
+| [Magnific Popup v1.1.0](https://github.com/dimsemenov/Magnific-Popup/tree/1.1.0), Copyright (c) 2014-2016 Dmitry Semenov, http://dimsemenov.com. Magnific Popup is distributed under the terms of the MIT License. | [jquery.magnific-popup.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/jquery.magnific-popup.min.js), [magnific-popup.css](assets/css/magnific-popup.css) |
+| [Simple-Jekyll-Search v1.9.2](https://github.com/christian-fei/Simple-Jekyll-Search/tree/v1.9.2), Copyright (c) 2015 Christian Fei. Simple-Jekyll-Search is distributed under the terms of the MIT License. | [simple-jekyll-search-1.9.2.min.js](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/assets/js/simple-jekyll-search-1.9.2.min.js) |
+| [Compress HTML in Jekyll v3.1.0](https://github.com/penibelst/jekyll-compress-html/tree/v3.1.0), Copyright (c) 2014 Anatol Broder. Compress HTML in Jekyll is distributed under the terms of the MIT License. | [compress.liquid](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/_layouts/util/compress.liquid) |
 
-The fonts can be customized by modifying the `.book.font-family-0` and `.book.font-family-1` entry in [`./assets/gitbook/custom.css`][10],
-
-```css
-.book.font-family-0 {
-    font-family: Georgia, serif;
-}
-.book.font-family-1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-```
-
-## Tips, Warnings and Dangers blocks
-
-The jekyll-gitbook theme supports customized kramdown attributes (`{: .block-tip }`, `{: .block-warning }`,
-`{: .block-danger }`) like that displayed in [the discord.js website][11]. The marker can be used like
-
-```markdown
-> ##### TIP
->
-> This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
-> this or a similar version after installation.
-{: .block-tip }
-```
-
-Rendered page can be previewed from
-
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
-
-## Cover image inside pages
-
-The jekyll-gitbook theme supports adding a cover image to a specific page by adding
-a `cover` field to the page metadata:
-
-```diff
-  ---
-  title: Page with cover image
-  author: Tao He
-  date: 2022-05-24
-  category: Jekyll
-  layout: post
-+ cover: /assets/jekyll-gitbook/dinosaur.gif
-  ---
-```
-
-The effect can be previewed from
-
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html)
-
-## Diagrams with mermaid.js
-
-This jekyll-theme supports [mermaid.js](https://mermaid.js.org/) to render diagrams
-in markdown.
-
-To enable the mermaid support, you need to set `mermaid: true` in the front matter
-of your post.
-
-```markdown
----
-mermaid: true
----
-```
-
-The example can be previewed from
-
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2023-08-31-mermaid.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2023-08-31-mermaid.html)
-
-## License
-
-This work is open sourced under the Apache License, Version 2.0.
-
-Copyright 2019 Tao He.
-
-[1]: https://pages.github.com
-[2]: https://pages.github.com/themes
-[3]: https://github.com/sighingnow/jekyll-gitbook/fork
-[4]: https://github.com/allejo/jekyll-toc
-[5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
-[6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
-[7]: https://analytics.google.com/analytics/web/
-[8]: https://www.cnzz.com/
-[9]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
-[10]: https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css
-[11]: https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas
-[12]: https://rubygems.org/gems/jekyll-remote-theme
-[13]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-[14]: https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml
+[Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
